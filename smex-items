@@ -1,0 +1,21 @@
+
+;; ----- smex-history -----
+(
+ package-list-packages
+ server-force-delete
+ load-theme
+ package-install
+ R
+ ag
+ cd
+)
+
+;; ----- smex-data -----
+(
+ (package-install . 2)
+ (load-theme . 2)
+ (server-force-delete . 1)
+ (color-theme-blue-sea . 2)
+ (color-theme-calm-forest . 1)
+ (package-list-packages . 1)
+)
