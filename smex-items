@@ -1,21 +1,26 @@
 
 ;; ----- smex-history -----
 (
- package-list-packages
- server-force-delete
- load-theme
  package-install
- R
- ag
- cd
+ calendar
+ notmuch
+ compose-mail
+ customize-group
+ package-list-packages
+ help
 )
 
 ;; ----- smex-data -----
 (
- (package-install . 2)
+ (package-install . 5)
  (load-theme . 2)
  (server-force-delete . 1)
  (color-theme-blue-sea . 2)
  (color-theme-calm-forest . 1)
- (package-list-packages . 1)
+ (package-list-packages . 5)
+ (help . 1)
+ (notmuch . 6)
+ (compose-mail . 2)
+ (customize-group . 1)
+ (calendar . 1)
 )
